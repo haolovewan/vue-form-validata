@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "form 表单校验",
+  "main": "index.ts",
+  "author": "Hulk",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.9.7",
+    "require": "^2.4.20",
+    "stylus": "^0.54.5",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "typescript": "^2.9.2",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
